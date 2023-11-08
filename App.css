@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Song+Myung&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap");
+
+body {
+  line-height: 1.5;
+  font-weight: bolder;
+  margin-left : 50px;
+  margin-right : 50px;
+  background-color: rgb(207, 230, 238);
+  }
+
+header {
+  font-size: 40px;
+  height: 150px;
+  color : white ;
+  font-family : "Nanum Gothic";
+  border-bottom: 1px solid gray;
+  text-align: center;
+}
+
+.container {
+  font-family: "Song Myung";
+  display: flex;
+  grid-template-columns: 100px 1fr 100px;
+  row-gap: 10px;
+  column-gap: 10px;
+  background-color: white;
+}
+
+nav {
+  border-right: 1px solid red;
+  margin-left: 5%;
+  font-size: 20px;
+  color: white;
+}
+
+main {
+  flex: 4;
+ font-size: 20px;
+ margin-left: 20px;
+}
+
+main:hover {
+  background-color: #fffff0;
+}
+
+article {
+  margin: 5px;
+  font-size: 15px;
+  border-left: 1px solid red;
+}
+
+footer {
+  font-family: "Nanum Pen Script";
+  text-align: center;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  margin: 10px;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  background-color: blue;
+  color: white;
+}
+
+table {
+  border: 1px dotted blue;
+  border-collapse: collapse;
+  width: 50%;
+}
+
+td {
+    border: 1px dotted blue;
+    padding: 10px;
+}
+
+input[type="text"] {
+  border: 1px dotted orange;
+  border-radius: 2px;
+  width: 30%;
+}
+input[type="password"] {
+  border: 1px dotted orange;
+  border-radius: 2px;
+  width: 30%;
+}
+input[type="password"]:focus { 
+  background-color: #ffff00; 
+}
+
+.menu {
+  width: 300px;
+  color: white;
+}
+.menu > li {
+  line-height: 40px;
+  background-color: green;
+  color: white;
+  
+}
+.submenu {
+  display: none;
+  color: white;
+ }
+.menu > li:hover {
+  background-color: blue;
+  transition-duration: 1s;
+  color: white;
+ }
+.menu > li:hover .submenu {
+  display: block;
+  transition-duration: 1s;
+  color: white;
+}
+.Career {
+  width:800px
+}
+.article{
+  color: black
+}
+
+.em1{
+  margin-left: 100px;
+  font-weight: bolder;
+  font-size: 1.2em;
+}
+.table1{
+  width: 90%;
+  margin-left: 50px;
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+  font-size: 1em;
+}
+.td1{
+  width: 20%;
+  border: 1px solid black;
+}
+.pledge1{
+  text-align: right;
+  width: 50% ;
+  font-family: "Song Myung";
+  margin-left: 350px;
+ font-size: 1em;
+}
+
+.cc{
+  width :300;
+  height :400;
+ }
+
+img{
+  width: 900px;
+  height :500px;
+ }
